@@ -7,9 +7,35 @@
   font-family: "Source Code Pro", monospace;
 }
 
-body {
-}
-
 html {
   font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #000d6b;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h3,h4{
+  font-size: 2.9rem;
+}
+
+h5,h6 {
+  font-size: 1.9rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
