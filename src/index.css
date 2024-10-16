@@ -7,12 +7,22 @@
   font-family: "Source Code Pro", monospace;
 }
 
+:root {
+  --font-main-color: #000d6b;
+  --font-main-color-hover: #000cfdb0;
+  --font-primary-color: #f9a826;
+}
+
 html {
   font-size: 62.5%;
 }
 
+section {
+  padding: 50px 0;
+}
+
 h1,h2,h3,h4,h5,h6 {
-  color: #000d6b;
+  color: var(--font-main-color);
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -38,4 +48,45 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.btn{
+  border: none;
+  outline: none;
+  padding: 0.7rem 1.5rem;
+  background: var(--font-main-color);
+  color: #fff;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: var(--font-main-color-hover);
+}
+
+.section-title {
+  color: var(--font-main-color);
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+
+.section-subtitle{
+  color: var(--font-primary-color);
+  font-weight: 600;
+  font-size: 1.9rem;
+}
+
+.section-description{
+  color: #777;
+  line-height: 1.7;
+  font-size: 1.5rem;
 }
