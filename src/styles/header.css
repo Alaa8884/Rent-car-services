@@ -1,0 +1,95 @@
+.nav-top {
+  padding: 1rem 0px;
+  background: var(--main-color);
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.header-top-help i {
+  background: #fff;
+  color: green;
+  padding: 0.4rem;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.header-top-right a,
+.header-top-help a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-top-right a:hover,
+.header-top-help a:hover{
+  color: #fff;
+}
+
+.nav-mid{
+  padding: 2rem 0px;
+}
+
+.company-logo {
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.company-logo a {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.company-logo a span {
+  font-size: 2.4rem;
+}
+
+.company-logo a i {
+  font-size: 3.3rem;
+}
+
+.company-info span i {
+  font-size: 3.3rem;
+  color: var(--main-color);
+}
+
+.company-info h4 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+.company-info h6 {
+  font-weight: 600;
+}
+
+.header-btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.6rem !important;
+  background: var(--main-color) !important;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;transition: all 0.4s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.header-btn:hover {
+  background: var(--main-color-hover) !important;
+}
+
+.header-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: end;
+}
+

@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Source Code Pro", monospace;
+  
 }
 
 :root {
-  --font-main-color: #000d6b;
-  --font-main-color-hover: #000cfdb0;
-  --font-primary-color: #f9a826;
+  --main-color: #000d6b;
+  --main-color-hover: #081ba1;
+  --primary-color: #f9a826;
 }
 
 html {
@@ -21,17 +22,24 @@ section {
   padding: 50px 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  color: var(--font-main-color);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-color);
   font-weight: 600;
   margin-bottom: 0;
 }
 
-h3,h4{
+h3,
+h4 {
   font-size: 2.9rem;
 }
 
-h5,h6 {
+h5,
+h6 {
   font-size: 1.9rem;
 }
 
@@ -50,12 +58,12 @@ ul {
   list-style: none;
 }
 
-.btn{
+/* .btn {
   border: none;
   outline: none;
   padding: 0.7rem 1.5rem;
-  background: var(--font-main-color);
-  color: #fff;
+  background: var(--main-color) !important;
+  color: #fff !important;
   border-radius: 0.6rem;
   -webkit-border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
@@ -66,27 +74,41 @@ ul {
   -moz-transition: all 0.4s;
   -ms-transition: all 0.4s;
   -o-transition: all 0.4s;
-}
+} */
 
 .btn:hover {
   color: #fff;
-  background-color: var(--font-main-color-hover);
+  background-color: var(--main-color-hover);
 }
 
 .section-title {
-  color: var(--font-main-color);
+  color: var(--main-color);
   font-weight: 600;
   font-size: 3.2rem;
 }
 
-.section-subtitle{
-  color: var(--font-primary-color);
+.section-subtitle {
+  color: var(--primary-color);
   font-weight: 600;
   font-size: 1.9rem;
 }
 
-.section-description{
+.section-description {
   color: #777;
   line-height: 1.7;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 30px 0;
+  }
+
+  .section-title {
+    font-size: 2.6rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.6rem;
+  }
 }

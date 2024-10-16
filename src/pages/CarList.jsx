@@ -3,7 +3,7 @@ function CarList() {
     <div>
       Car list
     </div>
-  )
+  );
 }
 
-export default CarList
+export default CarList;
