@@ -1,6 +1,29 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import "../../styles/header.css";
+
+const pageLinks = [
+  {
+    path: "/home",
+    display: "Home",
+  },
+  {
+    path: "/about",
+    display: "About",
+  },
+  {
+    path: "/cars",
+    display: "Cars",
+  },
+  {
+    path: "/blog",
+    display: "Blog",
+  },
+  {
+    path: "/contact",
+    display: "Contact",
+  },
+];
 
 function Header() {
   return (
@@ -69,12 +92,12 @@ function Header() {
               </div>
             </Col>
             <Col
-              lg="2"
+              lg="3"
               md="3"
               sm="0"
               className=" d-flex align-items-center justify-content-end"
             >
-              <button className="header-btn">
+              <button className="header-btn text-end">
                 <Link to="/contact">
                   <i className="ri-phone-fill"></i>
                   <span>Request a call</span>
@@ -84,6 +107,46 @@ function Header() {
           </Row>
         </Container>
       </div>
+      <nav className="main-nav">
+        <Container>
+          <div className="navigations d-flex align-items-center justify-content-between">
+            <span className="mobile-menu">
+              <i className="ri-menu-line"></i>
+              {/* <i className="ri-close-line"></i> */}
+            </span>
+            <div className="navigations-links">
+              <div className="menu d-flex align-items-center gap-5">
+                {pageLinks.map((page) => (
+                  <NavLink
+                    to={page.path}
+                    key={page.Link}
+                    className={(navClass) =>
+                      navClass.isActive
+                        ? "menu-link-active menu-links"
+                        : "menu-links"
+                    }
+                  >
+                    {page.display}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+            <div className="navigations-right">
+              <div className="search-box">
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Search"
+                />
+                <span>
+                  <i className="ri-search-line"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </nav>
     </header>
   );
 }
