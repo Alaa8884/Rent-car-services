@@ -32,7 +32,7 @@ function Header() {
         <Container>
           <Row>
             <Col lg="6" md="6" sm="6">
-              <div className="header-top-left d-flex align-items-center gap-3">
+              <div className="header-top-left d-flex align-items-center gap-4">
                 <span>Need Help?</span>
                 <span className="header-top-help">
                   <i className="ri-phone-fill"></i>
@@ -42,8 +42,8 @@ function Header() {
                 </span>
               </div>
             </Col>
-            <Col lg="6" md="6" sm="6" className=" d-flex justify-content-end">
-              <div className="header-top-right d-flex align-items-center gap-3">
+            <Col lg="6" md="6" sm="6" className=" d-flex align-items-center justify-content-end">
+              <div className="header-top-right d-flex align-items-center justify-content-end gap-3">
                 <Link to="#" className="d-flex align-items-center gap-1">
                   <i className="ri-login-circle-line"></i>Login
                 </Link>
@@ -76,7 +76,7 @@ function Header() {
                 </span>
                 <div className="company-location-content">
                   <h4>Egypt</h4>
-                  <h6>Cairo City, Maadi</h6>
+                  <h5>Cairo City, Maadi</h5>
                 </div>
               </div>
             </Col>
@@ -87,7 +87,7 @@ function Header() {
                 </span>
                 <div className="company-work-time-content">
                   <h4>Sunday to Friday</h4>
-                  <h6>10am - 11pm</h6>
+                  <h5>10am - 11pm</h5>
                 </div>
               </div>
             </Col>
