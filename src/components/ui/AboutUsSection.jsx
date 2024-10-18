@@ -10,7 +10,7 @@ function AboutUsSection() {
           <Col lg="6" md="6" sm="12">
             <div className="about-section-content">
               <h2 className="section-subtitle">About Us</h2>
-              <h1 className="section-title">Welcome to car rent service</h1>
+              <h3 className="section-title">Welcome to car rent service</h3>
               <p className="section-description">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatum blanditiis esse accusantium dignissimos labore

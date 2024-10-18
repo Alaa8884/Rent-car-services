@@ -3,6 +3,7 @@ import Helmet from "../components/helmet/Helmet";
 import { Col, Container, Row } from "reactstrap";
 import FindCarForm from "../components/ui/FindCarForm";
 import AboutUsSection from "../components/ui/AboutUsSection";
+import ServicesSection from "../components/ui/ServicesSection";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
         </div>
       </section>
       <AboutUsSection />
+      <ServicesSection />
     </Helmet>
   );
 }

@@ -62,7 +62,10 @@ ul {
   padding: 0;
   list-style: none;
 }
-
+.container {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
 
 .btn:hover {
   color: #fff;
@@ -85,7 +88,7 @@ ul {
 
 .section-description {
   color: #7c8a97;
-  line-height: 1.8;
+  line-height: 2;
   font-size: 1.44rem;
   margin-bottom: 1.6rem;
 }
