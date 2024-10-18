@@ -4,7 +4,7 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Blog from "../pages/Bolg";
 import BlogDetails from "../pages/BlogDetails";
-import CarList from "../pages/CarList";
+import Cars from "../pages/Cars";
 import CarDetails from "../pages/CarDetails";
 import ErrorPage from "../pages/ErrorPage";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
@@ -18,7 +18,7 @@ function Routers() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:id" element={<BlogDetails />} />
-      <Route path="/cars" element={<CarList />} />
+      <Route path="/cars" element={<Cars />} />
       <Route path="/cars/:id" element={<CarDetails />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="*" element={<ErrorPage />} />
