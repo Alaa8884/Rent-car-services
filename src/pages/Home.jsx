@@ -2,6 +2,7 @@ import HeroSlider from "../components/ui/HeroSlider";
 import Helmet from "../components/helmet/Helmet";
 import { Col, Container, Row } from "reactstrap";
 import FindCarForm from "../components/ui/FindCarForm";
+import AboutUsSection from "../components/ui/AboutUsSection";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
           </Container>
         </div>
       </section>
+      <AboutUsSection />
     </Helmet>
   );
 }

@@ -1,5 +1,5 @@
 import { Form, FormGroup } from "reactstrap";
-import "../../styles/findCarForm.css"
+import "../../styles/find-car-form.css"
 function FindCarForm() {
   return (
     <Form className="form">
