@@ -46,7 +46,7 @@
 }
 
 .company-logo a i {
-  font-size: 3.3rem;
+  font-size: 3.52rem;
 }
 
 .company-info {
@@ -54,16 +54,18 @@
 }
 
 .company-info span i {
-  font-size: 3.3rem;
+  font-size: 3.52rem;
 }
 
 .company-info h4 {
-  font-size: 1.9rem;
+  font-size: 1.92rem;
   font-weight: 700;
+  margin-bottom: 0.8rem;
 }
 .company-info h5 {
-  font-size: 1.4rem;
+  font-size: 1.6em;
   font-weight: 600;
+  margin-bottom: 0.8rem;
 }
 
 .header-btn {
@@ -112,6 +114,10 @@
   cursor: pointer;
 }
 
+.menu {
+  gap: 4.3rem;
+}
+
 .menu-links {
   text-decoration: none;
   color: #fff;
@@ -154,10 +160,6 @@
   color: #fff;
   cursor: pointer;
   font-size: 1.28rem;
-}
-
-.search-box input::placeholder {
-  color: #fff;
 }
 
 .search-box i {

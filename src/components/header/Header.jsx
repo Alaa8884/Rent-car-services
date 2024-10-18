@@ -42,13 +42,14 @@ function Header() {
                 </span>
               </div>
             </Col>
-            <Col lg="6" md="6" sm="6" className=" d-flex align-items-center justify-content-end">
-              <div className="header-top-right d-flex align-items-center justify-content-end gap-3">
+            <Col lg="6" md="6" sm="6">
+              <div className="header-top-right d-flex align-items-center justify-content-end gap-4">
                 <Link to="#" className="d-flex align-items-center gap-1">
-                  <i className="ri-login-circle-line"></i>Login
+                  <i className="ri-login-circle-line"></i>
+                  <span>Login</span>
                 </Link>
                 <Link to="#" className="d-flex align-items-center gap-1">
-                  <i className="ri-user-line"></i> Register
+                  <i className="ri-user-line"></i> <span>Register</span>
                 </Link>
               </div>
             </Col>
@@ -58,7 +59,7 @@ function Header() {
       <div className="nav-mid ">
         <Container>
           <Row>
-            <Col lg="3" md="3" sm="4">
+            <Col lg="4" md="3" sm="4">
               <h1 className="company-logo">
                 <Link to="/home" className=" d-flex align-items-center gap-2">
                   <i className="ri-car-line"></i>
@@ -76,7 +77,7 @@ function Header() {
                 </span>
                 <div className="company-location-content">
                   <h4>Egypt</h4>
-                  <h5>Cairo City, Maadi</h5>
+                  <h5>Maadi City, Cairo</h5>
                 </div>
               </div>
             </Col>
@@ -92,7 +93,7 @@ function Header() {
               </div>
             </Col>
             <Col
-              lg="3"
+              lg="2"
               md="3"
               sm="0"
               className=" d-flex align-items-center justify-content-end"
@@ -115,11 +116,11 @@ function Header() {
               {/* <i className="ri-close-line"></i> */}
             </span>
             <div className="navigations-links">
-              <div className="menu d-flex align-items-center gap-5">
-                {pageLinks.map((page) => (
+              <div className="menu d-flex align-items-center">
+                {pageLinks.map((page, index) => (
                   <NavLink
                     to={page.path}
-                    key={page.Link}
+                    key={index}
                     className={(navClass) =>
                       navClass.isActive
                         ? "menu-link-active menu-links"
