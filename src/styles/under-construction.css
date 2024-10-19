@@ -1,14 +1,14 @@
-.privacy h2 {
+.under-construction-section h2 {
   font-size: 3rem;
   font-weight: 700;
   color: var(--main-color);
 }
 
-.privacy p{
+.under-construction-section p{
   color: #777;
 }
 
-.privacy button {
+.under-construction-section button {
   background: var(--main-color);
   padding: 0.8rem 1.6rem;
   border: none;
@@ -27,6 +27,6 @@
   -o-transition: all 0.3s;
 }
 
-.privacy button:hover {
+.under-construction-section button:hover {
   background-color: var(--main-color-hover);
 }

@@ -1,0 +1,36 @@
+.become-driver-section {
+  padding: 8rem 0px;
+  background: linear-gradient(rgb(0, 13, 107, 0.8), rgb(0, 13, 107, 0.8)),
+    url("../assets/all-images/drive.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.become-driver-section h2 {
+  color: #fff;
+  font-size: 4.48rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+.become-driver-btn {
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  background:#fff;
+  margin-top: 2.4rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.become-driver-btn a {
+  text-decoration: none;
+  color: var(--main-color);
+}

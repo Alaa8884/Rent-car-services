@@ -8,6 +8,7 @@ import Cars from "../pages/Cars";
 import CarDetails from "../pages/CarDetails";
 import ErrorPage from "../pages/ErrorPage";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import BecomeDriver from "../pages/BecomeDriver";
 
 function Routers() {
   return (
@@ -21,6 +22,7 @@ function Routers() {
       <Route path="/cars" element={<Cars />} />
       <Route path="/cars/:id" element={<CarDetails />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
+      <Route path="/becomeDriver" element={<BecomeDriver />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );

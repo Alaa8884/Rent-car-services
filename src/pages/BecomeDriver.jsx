@@ -1,9 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import "../styles/under-construction.css";
 
-
-function PrivacyPolicy() {
-  const navigate = useNavigate()
+function BecomeDriver() {
+  const navigate = useNavigate();
   return (
     <section className="under-construction-section d-flex align-items-center justify-content-center flex-column">
       <h2 className=" mb-4">This page is under construction</h2>
@@ -13,4 +12,4 @@ function PrivacyPolicy() {
   );
 }
 
-export default PrivacyPolicy
+export default BecomeDriver;

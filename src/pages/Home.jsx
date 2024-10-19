@@ -5,6 +5,7 @@ import FindCarForm from "../components/ui/FindCarForm";
 import AboutUsSection from "../components/ui/AboutUsSection";
 import ServicesSection from "../components/ui/ServicesSection";
 import CarsSection from "../components/ui/CarsSection";
+import BecomeDriverSection from "../components/ui/BecomeDriverSection";
 
 function Home() {
   return (
@@ -28,7 +29,8 @@ function Home() {
       </section>
       <AboutUsSection />
       <ServicesSection />
-      <CarsSection/>
+      <CarsSection />
+      <BecomeDriverSection/>
     </Helmet>
   );
 }
