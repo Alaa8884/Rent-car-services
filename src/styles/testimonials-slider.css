@@ -1,0 +1,17 @@
+.testimonials {
+  padding: 2.4rem 1.6rem;
+}
+
+.testimonials-info {
+  margin-top: 1.6em;
+}
+
+.testimonials-user-name {
+  color: var(--main-color);
+  margin-top: 1.6rem;
+}
+
+.testimonials-user-job {
+color: #777;
+  margin-bottom: 1.6rem;
+}

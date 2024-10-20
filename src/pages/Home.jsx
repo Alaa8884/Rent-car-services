@@ -6,6 +6,7 @@ import AboutUsSection from "../components/ui/AboutUsSection";
 import ServicesSection from "../components/ui/ServicesSection";
 import CarsSection from "../components/ui/CarsSection";
 import BecomeDriverSection from "../components/ui/BecomeDriverSection";
+import Testimonials from "../components/ui/Testimonials-section";
 
 function Home() {
   return (
@@ -30,7 +31,8 @@ function Home() {
       <AboutUsSection />
       <ServicesSection />
       <CarsSection />
-      <BecomeDriverSection/>
+      <BecomeDriverSection />
+      <Testimonials/>
     </Helmet>
   );
 }
