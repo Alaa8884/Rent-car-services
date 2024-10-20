@@ -1,6 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 import "../../styles/header.css";
+import { useRef, useState } from "react";
 
 const pageLinks = [
   {
@@ -26,6 +27,23 @@ const pageLinks = [
 ];
 
 function Header() {
+  const [open, setOpen] = useState(false);
+  const overLayRef = useRef(null);
+  const menuRef = useRef(null);
+
+  function handleOpenMenu() {
+    overLayRef.current.classList.toggle("navigations-active");
+    menuRef.current.classList.toggle("menu-active");
+    setOpen((open) => !open);
+  }
+
+  function handleCloseMenu() {
+    overLayRef.current.classList.remove("navigations-active");
+    menuRef.current.classList.toggle("menu-active");
+    setOpen(false);
+  }
+
+  console.log(open);
   return (
     <header className="header">
       <div className="nav-top">
@@ -112,11 +130,17 @@ function Header() {
         <Container>
           <div className="navigations d-flex align-items-center justify-content-between">
             <span className="mobile-menu">
-              <i className="ri-menu-line"></i>
-              {/* <i className="ri-close-line"></i> */}
+              <i
+                className={open ? "ri-close-line" : "ri-menu-line"}
+                onClick={() => handleOpenMenu()}
+              ></i>
             </span>
-            <div className="navigations-links">
-              <div className="menu d-flex align-items-center">
+            <div
+              className="navigations-links "
+              ref={overLayRef}
+              onClick={() => handleCloseMenu()}
+            >
+              <div className="menu d-flex align-items-center" ref={menuRef}>
                 {pageLinks.map((page, index) => (
                   <NavLink
                     to={page.path}
