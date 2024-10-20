@@ -10,13 +10,13 @@ function BlogsCard({ item }) {
       <div className="blog-card">
         <img src={imgUrl} alt={`${title} blog image`} className=" w-100" />
         <div className="blog-card-content">
-          <Link to={`/blog/:${id}`} className="section-title">
+          <Link to={`/blog/${id}`} className="section-title">
             {title}
           </Link>
           <p className="section-description">
             {description.split(" ").slice(0, 17).join(" ")}
           </p>
-          <Link to={`/blog/:${id}`} className="read-more">
+          <Link to={`/blog/${id}`} className="read-more">
             Read More
           </Link>
           <div className="blog-card-author-info d-flex align-items-center justify-content-between">
