@@ -43,7 +43,6 @@ function Header() {
     setOpen(false);
   }
 
-  console.log(open);
   return (
     <header className="header">
       <div className="nav-top">

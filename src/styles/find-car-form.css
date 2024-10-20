@@ -48,9 +48,9 @@
   width: 100%;
   outline: none;
   padding: 0.8rem 1.2rem;
-  border: 1px solid   #7c8a972a;
+  border: 1px solid #7c8a972a;
   font-size: 1.6rem;
-  color:  #7c8a97;
+  color: #7c8a97;
 }
 
 .form-group input::placeholder {
@@ -96,6 +96,89 @@
 
 #journey-time::before {
   content: "Journey Time";
-  color:  #7c8a97;
+  color: #7c8a97;
   margin-right: 1.28rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .find-left {
+    padding: 5.5rem 2.2rem;
+  }
+
+  .find-left h2 {
+    font-size: 2.4rem;
+  }
+
+  .form {
+    padding: 3rem 1rem;
+  }
+
+  .select-group select,
+  .form-group input {
+    padding: 0.7rem 1rem;
+    font-size: 1.28rem;
+    color: #7c8a97;
+  }
+
+  .find-btn {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    outline: none;
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+  }
+
+  .form-container {
+    bottom: -5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .find-left {
+    padding-top: 2rem;
+    padding-bottom: 0px;
+    text-align: center;
+    background: #fff;
+  }
+
+  .form {
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+.find-left h2 {
+  font-size: 2rem
+}
+
+  .form-group {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group input {
+    padding: 1.1rem !important;
+  }
+
+  .select-group {
+    width: 100%;
+    padding-right: 1rem;
+    margin-bottom: 1.8rem !important;
+  }
+
+  .find-btn {
+    font-size: 1.28rem;
+  }
+
+  .form-container  {
+    bottom: -20rem;
+  }
 }
