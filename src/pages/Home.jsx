@@ -14,10 +14,10 @@ function Home() {
     <Helmet title="Home">
       <section className="p-0 hero-slider-section">
         <HeroSlider />
-        <div className="hero-form mt-5">
+        <div className="hero-form">
           <Container className="form-container">
             <Row>
-              <Col lg="4" md="4" sm="12" className=" px-3">
+              <Col lg="4" md="4" sm="12" className=" ">
                 <div className="find-left">
                   <h2>Find your best car here</h2>
                 </div>

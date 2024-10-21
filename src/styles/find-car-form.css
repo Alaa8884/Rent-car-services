@@ -135,9 +135,11 @@
     -o-transition: all 0.3s;
   }
 
-  .form-container {
-    bottom: -5rem;
+  .hero-form {
+    bottom: -10rem;
+    background: red;
   }
+ 
 }
 
 @media only screen and (max-width: 768px) {
