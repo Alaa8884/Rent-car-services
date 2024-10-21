@@ -1,10 +1,18 @@
 import { Col, Container, Row } from "reactstrap";
 import aboutImg from "../../assets/all-images/cars-img/bmw-offer.png";
-import "../../styles/about-section.css"
+import "../../styles/about-section.css";
 
-function AboutUsSection() {
+// eslint-disable-next-line react/prop-types
+function AboutUsSection({ aboutClass }) {
   return (
-    <section className="about-us-section">
+    <section
+      className="about-us-section"
+      style={
+        aboutClass === "aboutPage"
+          ? { marginTop: "0px" }
+          : { marginTop: "280px" }
+      }
+    >
       <Container>
         <Row>
           <Col lg="6" md="6" sm="12">
