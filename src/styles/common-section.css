@@ -1,0 +1,14 @@
+.common-section {
+  margin-bottom: 4.8rem;
+  padding: 8rem 0px;
+  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
+    url("../assets/all-images/drive.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.common-section h1 {
+  font-size: 4rem;
+  margin-bottom: 0.8rem;
+}
