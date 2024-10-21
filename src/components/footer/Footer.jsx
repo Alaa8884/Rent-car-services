@@ -52,7 +52,7 @@ function Footer() {
           </Col>
           <Col lg="2" md="4" sm="6">
             <div className=" mb-4">
-              <h5 className="footer-tilte footer-quick-links">Quick Links</h5>
+              <h5 className="footer-title footer-quick-links">Quick Links</h5>
               <ListGroup>
                 {quickLinks.map((link, index) => (
                   <ListGroupItem key={index} className=" p-0 mt-4 quick-link">
@@ -65,7 +65,7 @@ function Footer() {
           <Col lg="3" md="4" sm="6">
             {" "}
             <div className=" mb-4">
-              <h5 className="footer-tilte footer-contact">Head Office</h5>
+              <h5 className="footer-title footer-contact">Head Office</h5>
               <p className="office-info">136 Str, Maadi, Cairo, Egypt</p>
               <p className="office-info">Phone: +201006541237</p>
               <p className="office-info">Email: alaa_test@gmail.com</p>
@@ -74,7 +74,7 @@ function Footer() {
           </Col>
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer-tilte footer-newsletter">Newsletter</h5>
+              <h5 className="footer-title footer-newsletter">Newsletter</h5>
               <p className="office-subscribe mt-0 ">Subscribe our newsletter</p>
               <div className="newsletter d-flex align-items-center justify-content-between">
                 <input
