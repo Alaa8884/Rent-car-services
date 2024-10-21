@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function CarItem({ car }) {
   const { carName, imgUrl, model, price, speed, automatic } = car;
   return (
-    <Col lg="4" md="6"  xs="12" className=" px-3 h-100">
+    <Col lg="4" md="4"  xs="12" className=" px-3 h-100">
       <div className="car-item">
         <div className="car-image">
           <img src={imgUrl} alt={`${carName} image`} className="w-100" />

@@ -76,3 +76,50 @@
 .details-btn:hover {
   background: var(--primary-color-hover);
 }
+
+@media only screen and (max-width:992px) {
+  .car-item-content h4 {
+    font-size: 1.76rem;
+  }
+
+  .car-item-content h5 {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+
+  .car-info {
+    flex-wrap: wrap;
+  }
+
+  .car-info p {
+    font-size: 1.4rem;
+  }
+
+  .car-item-btn {
+    padding: 0.6rem 1rem;
+    font-size: 1.44rem;
+  }
+}
+
+@media only screen and (max-width:768px) {
+.car-item-content h4 {
+    font-size: 1.6rem;
+  }
+
+  .car-item-content h5 {
+    font-size: 1.44rem;
+    margin-top: 1rem;
+  }
+
+  .car-info p {
+    font-size: 1.12rem;
+  }
+
+  .car-info p i {
+    font-size: 1.28rem;
+  }
+
+  .car-item-btn {
+    font-size: 1.28rem;
+  }
+}
