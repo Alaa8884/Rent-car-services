@@ -34,3 +34,35 @@
   text-decoration: none;
   color: var(--main-color);
 }
+
+@media only screen and (max-width:992px){
+  .become-driver-section h2{
+font-size: 2.4rem;
+line-height: 1.9;
+  }
+}
+
+@media only screen and (max-width:768px){
+.become-driver-section {
+  padding: 5rem 0px;
+}
+
+  .become-driver-section h2{
+font-size: 2.08rem;
+line-height: 1.9;
+  }
+
+  .become-driver-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width:576px) {
+.become-driver-section {
+  text-align: center;
+}
+
+.become-driver-image {
+  display: none;
+}
+}
