@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 import { Col } from "reactstrap";
 import ava01 from "../../assets/all-images/ava-1.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
-import { Link } from "react-router-dom";
+import "../../styles/member-item.css"
+
 
 const OurMembers = [
   {
@@ -60,7 +62,7 @@ function MemberItem() {
                 alt={`${member.name} image`}
                 className=" w-100"
               />{" "}
-              <div className="single__member-social">
+              <div className="single-member-social">
                 <Link to={member.fbUrl}>
                   <i className="ri-facebook-line"></i>
                 </Link>

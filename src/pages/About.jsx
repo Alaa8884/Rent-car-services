@@ -68,7 +68,6 @@ function About() {
             </Col>
           </Row>
           <Row>
-           
               <MemberItem
               />
           
