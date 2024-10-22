@@ -1,0 +1,19 @@
+.payment label {
+  font-size: 1.6rem;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.payment button {
+  border: none;
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  background: var(--main-color);
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}

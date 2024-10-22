@@ -4,11 +4,17 @@ import carData from "../assets/data/carData.js";
 import { Col, Container, Row } from "reactstrap";
 import "../styles/car-details-page.css";
 import Bookingform from "../components/ui/Bookingform.jsx";
+import PaymentMethod from "../components/ui/PaymentMethod.jsx";
+import { useEffect } from "react";
 
 function CarDetails() {
   const { carName } = useParams();
 
   const selectedCar = carData.find((item) => item.carName === carName);
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, [selectedCar]);
+
 
   return (
     <Helmet title={`${selectedCar.carName} details`}>
@@ -77,7 +83,13 @@ function CarDetails() {
             <Col lg="7" sm="12">
               <div className="booking-info">
                 <h4 className="section-title">Booking Information</h4>
-                <Bookingform/>
+                <Bookingform />
+              </div>
+            </Col>
+            <Col lg="5">
+              <div className="payment-information">
+                <h4 className="section-title">Payment Information</h4>
+               <PaymentMethod/>
               </div>
             </Col>
           </Row>

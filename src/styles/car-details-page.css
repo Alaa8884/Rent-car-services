@@ -3,6 +3,10 @@
     font-weight: 700;
 }
 
+.car-details-section h4 {
+    font-size: 2rem;
+  }
+
 .car-details-content i {
   color: var(--primary-color);
 }
@@ -18,4 +22,18 @@
 
 .car-details-info {
   column-gap: 6.4rem;
+}
+
+@media only screen and (max-width:992px) {
+ .car-details-section h3 {
+    font-size: 2rem;
+  }
+
+  .ratings-container {
+  font-size: 1.44rem;
+}
+
+.car-details-info {
+  column-gap: 3rem;
+}
 }

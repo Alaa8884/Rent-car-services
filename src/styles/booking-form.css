@@ -40,3 +40,14 @@
 .bookings-form textarea {
   resize: none;
 }
+
+@media only screen and (max-width:768px) {
+  .booking-input {
+  width: 100%;
+}
+
+.booking-input input,
+.booking-input select, textarea {
+  font-size: 1.44rem;
+}
+}
