@@ -1,0 +1,135 @@
+.blog-details-section h2 {
+  margin-top: 2.4rem;
+}
+
+.blog-publisher {
+  margin-bottom: 2.4rem;
+}
+
+.blog-publisher i {
+  color: var(--primary-color);
+}
+
+.blog-details-section blockquote {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  color: var(--main-color);
+  padding-left: 4.8rem;
+}
+
+.users-comment {
+  margin-top: 4.8em;
+}
+
+.single-comment img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.users-comment h4 {
+  font-size: 2.4rem;
+}
+
+.single-comment h5 {
+  font-size: 1.6rem;
+}
+
+.replay-button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.replay-button i {
+  color: var(--primary-color);
+}
+
+.leave-comment {
+  margin-top: 4.8rem;
+}
+
+.leave-comment-form input {
+  border: 1px solid #7c8a972a;
+  outline-offset: 3px;
+  outline-color: var(--main-color);
+  width: 48%;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.leave-comment textarea {
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  resize: none;
+}
+
+.leave-comment-form input::placeholder,
+.leave-comment-form textarea::placeholder {
+  color: #777;
+}
+
+.comment-btn{
+  bottom: none;
+  outline: none;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1.6rem;
+  background: var(--main-color);
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.recent-blog-post a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+@media only screen and (max-width:768px) {
+.users-comment {
+  margin-top: 3.8em;
+}
+
+.users-comment h4 {
+  font-size: 1.92rem;
+}
+
+.single-comment img {
+  width: 4rem;
+  height: 4rem;
+}
+.recent-post{
+  margin-top: 3rem;
+  }
+
+  .blog-details-section blockquote {
+    font-size: 2rem;
+  }
+
+  .leave-comment-form input,
+.leave-comment textarea,.comment-btn {
+  font-size: 1.44rem;
+}
+
+.blog-details-section .section-description {
+  font-size: 1.28rem;
+}
+}
