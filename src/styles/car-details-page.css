@@ -1,0 +1,21 @@
+.car-details-content h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.car-details-content i {
+  color: var(--primary-color);
+}
+
+.ratings-container {
+  font-size: 1.6rem;
+
+}
+
+.rent-star-info{
+  margin: 1.6rem 0px 2.4rem;
+}
+
+.car-details-info {
+  column-gap: 6.4rem;
+}

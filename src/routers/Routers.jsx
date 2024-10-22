@@ -18,9 +18,9 @@ function Routers() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:id" element={<BlogDetails />} />
+      <Route path="/blog/:blogId" element={<BlogDetails />} />
       <Route path="/cars" element={<Cars />} />
-      <Route path="/cars/:id" element={<CarDetails />} />
+      <Route path="/cars/:carName" element={<CarDetails />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/becomeDriver" element={<BecomeDriver />} />
       <Route path="*" element={<ErrorPage />} />
