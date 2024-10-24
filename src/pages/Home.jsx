@@ -14,8 +14,7 @@ function Home() {
 useEffect(() => {
   window.scrollTo(0, 0);
 }, []);
-
-
+  
   return (
     <Helmet title="Home">
       <section className="p-0 hero-slider-section">

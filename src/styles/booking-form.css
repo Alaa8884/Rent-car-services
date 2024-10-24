@@ -37,6 +37,12 @@ textarea {
   margin-right: 0.5rem;
 }
 
+.booking-input input[type="date"]::before {
+  content: "Journey Date";
+  color: #777;
+  margin-right: 0.5rem;
+}
+
 .bookings-form textarea {
   resize: none;
 }
