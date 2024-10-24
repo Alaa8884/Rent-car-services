@@ -17,7 +17,7 @@ function Home() {
         <div className="hero-form">
           <Container className="form-container">
             <Row>
-              <Col lg="4" md="4" sm="12" className=" ">
+              <Col lg="4" md="4">
                 <div className="find-left">
                   <h2>Find your best car here</h2>
                 </div>

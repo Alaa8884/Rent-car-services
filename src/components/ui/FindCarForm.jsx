@@ -22,14 +22,19 @@ function FindCarForm() {
           />
         </FormGroup>
         <FormGroup className="form-group">
-          <input type="date" name="journey-date" id="journey-date" />
+          <input
+            type="date"
+            name="journey-date"
+            id="journey-date"
+            placeholder="mm/dd/yyyy"
+          />
         </FormGroup>
         <FormGroup className="form-group">
           <input
             type="time"
             name="journey-time"
             id="journey-time"
-            placeholder="Journey Time"
+            placeholder="00:00:00"
           />
         </FormGroup>
         <FormGroup className="select-group">

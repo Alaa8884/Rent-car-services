@@ -3,10 +3,16 @@ import { Col, Container, Row } from "reactstrap";
 import "../styles/blog-details-page.css";
 import blogData from "../assets/data/blogData";
 import userImage from "../assets/all-images/ava-1.jpg";
+import { useEffect } from "react";
 
 function BlogDetails() {
   const { blogId } = useParams();
   const selectedBlog = blogData.find((blog) => blog.id == blogId);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [selectedBlog]);
+
   return (
     <section className="blog-details-section">
       <Container>

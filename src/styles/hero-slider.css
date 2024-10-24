@@ -1,6 +1,7 @@
 .slider-item {
   max-width: 100%;
   height: 65rem;
+  overflow: hidden;
 }
 
 .slider-item-01 {

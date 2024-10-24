@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "reactstrap";
 import TestimonialsSlider from "./TestimonialsSlider";
+import "../../styles/testimonials-slider.css";
 
 
 function Testimonials() {

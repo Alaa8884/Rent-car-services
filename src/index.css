@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* font-family: "Source Code Pro", monospace; */
   font-family: "Source Sans 3", sans-serif;
 }
 
@@ -14,7 +13,11 @@
   --main-color: #000d6b;
   --main-color-hover: #081ba1;
   --primary-color: #f9a826;
-  --primary-color-hover:#fbb547;
+  --primary-color-hover: #fbb547;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 html {
@@ -78,7 +81,6 @@ ul {
   font-weight: 600;
   font-size: 3.2rem;
   margin-bottom: 0.8rem;
-  
 }
 
 .section-subtitle {
