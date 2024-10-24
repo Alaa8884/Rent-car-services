@@ -9,7 +9,7 @@ function Bookingform() {
 
   return (
     <Form className="bookings-form" onSubmit={handleSubmit}>
-      <FormGroup className="booking-input d-inline-block me-4 mb-4">
+      <FormGroup className="booking-input d-inline-block me-4 mb-5">
         <input
           required
           type="text"
@@ -27,7 +27,7 @@ function Bookingform() {
           placeholder="Your Last Name"
         />
       </FormGroup>
-      <FormGroup className="booking-input d-inline-block me-4 mb-4">
+      <FormGroup className="booking-input d-inline-block me-4 mb-5">
         <input
           required
           type="email"
@@ -45,7 +45,7 @@ function Bookingform() {
           placeholder="Your Phone Number"
         />
       </FormGroup>{" "}
-      <FormGroup className="booking-input d-inline-block me-4 mb-4">
+      <FormGroup className="booking-input d-inline-block me-4 mb-5">
         <input
           required
           type="text"
@@ -63,7 +63,7 @@ function Bookingform() {
           placeholder="To Address"
         />
       </FormGroup>
-      <FormGroup className="booking-input d-inline-block me-4 mb-4">
+      <FormGroup className="booking-input d-inline-block me-4 mb-5">
         <select name="person-number" id="person-number">
           <option value="1 person">1 person</option>
           <option value="2 person">2 person</option>
@@ -81,7 +81,7 @@ function Bookingform() {
           <option value="5+ luggage">5+ luggage</option>
         </select>
       </FormGroup>
-      <FormGroup className="booking-input d-inline-block me-4 mb-4">
+      <FormGroup className="booking-input d-inline-block me-4 mb-5">
         <input required type="date" name="journey-date" id="date" />
       </FormGroup>
       <FormGroup className="booking-input d-inline-block ms-2 mb-5">

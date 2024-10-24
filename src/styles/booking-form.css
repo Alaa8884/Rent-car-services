@@ -16,7 +16,8 @@
   -o-border-radius: 0.5rem;
 }
 
-.booking-input select, textarea {
+.booking-input select,
+textarea {
   outline: none;
   width: 100%;
   padding: 1rem 1.5rem;
@@ -34,20 +35,26 @@
   content: "Journey Time";
   color: #777;
   margin-right: 0.5rem;
-
 }
 
 .bookings-form textarea {
   resize: none;
 }
 
-@media only screen and (max-width:768px) {
-  .booking-input {
-  width: 100%;
-}
+@media only screen and (max-width: 768px) {
+  .bookings-form .booking-input {
+    width: 100%;
+    background: #000;
+    margin-left: 4px;
+   
+  }
 
-.booking-input input,
-.booking-input select, textarea {
-  font-size: 1.44rem;
-}
+  .booking-input input,
+  .booking-input select,
+  textarea {
+    font-size: 1.44rem;
+  }
+  textarea {
+    margin-bottom: 2rem;
+  }
 }
