@@ -8,6 +8,7 @@
   padding: 0.8rem 1.5rem;
   font-size: 1.6rem;
   color: #777;
+  background: transparent !important;
   border: 1px solid #7c8a972a;
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -20,6 +21,7 @@
 textarea {
   outline: none;
   width: 100%;
+  background: transparent !important;
   padding: 1rem 1.5rem;
   font-size: 1.6rem !important;
   color: #777;
