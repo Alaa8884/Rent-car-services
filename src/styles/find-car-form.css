@@ -48,6 +48,7 @@
 
 .form-group input {
   width: 100%;
+  background: transparent !important;
   outline: none;
   padding: 0.8rem 1.2rem;
   border: 1px solid #7c8a972a;
@@ -71,6 +72,7 @@
   width: 100% !important;
   font-size: 1.6rem;
   color: #7c8a97;
+  background: transparent !important;
 }
 
 .find-btn {
