@@ -6,9 +6,15 @@ import BecomeDriverSection from "../components/ui/BecomeDriverSection";
 import "../styles/about-page.css"
 import MemberItem from "../components/ui/MemberItem";
 import aboutPagImage from '../assets/all-images/drive.jpg'
+import { useEffect } from "react";
 
 
 function About() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <Helmet title="About">
       <CommonSection title="About" />

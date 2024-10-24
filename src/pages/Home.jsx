@@ -1,6 +1,7 @@
+import { useEffect } from "react";
+import { Col, Container, Row } from "reactstrap";
 import HeroSlider from "../components/ui/HeroSlider";
 import Helmet from "../components/helmet/Helmet";
-import { Col, Container, Row } from "reactstrap";
 import FindCarForm from "../components/ui/FindCarForm";
 import AboutUsSection from "../components/ui/AboutUsSection";
 import ServicesSection from "../components/ui/ServicesSection";
@@ -10,6 +11,11 @@ import Testimonials from "../components/ui/Testimonials-section";
 import BlogSection from "../components/ui/BlogSection";
 
 function Home() {
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
+
   return (
     <Helmet title="Home">
       <section className="p-0 hero-slider-section">

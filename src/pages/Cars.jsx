@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import Helmet from "../components/helmet/Helmet";
 import CommonSection from "../components/ui/CommonSection";
@@ -27,7 +27,12 @@ function CarList() {
   const handleSortChange = (e) => {
     setSortedBy(e.target.value);
   };
-console.log(carData);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   return (
     <Helmet title="Cars List">
       <CommonSection title="Cars List" />

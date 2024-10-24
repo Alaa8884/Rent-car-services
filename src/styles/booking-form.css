@@ -44,7 +44,6 @@ textarea {
 @media only screen and (max-width: 768px) {
   .bookings-form .booking-input {
     width: 100%;
-    background: #000;
     margin-left: 4px;
    
   }

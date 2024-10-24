@@ -11,6 +11,7 @@ function CarDetails() {
   const { carName } = useParams();
 
   const selectedCar = carData.find((item) => item.carName === carName);
+  
 useEffect(() => {
   window.scrollTo(0, 0);
 }, [selectedCar]);
