@@ -7,7 +7,7 @@ interface, enabling users to seamlessly filter, select, and customize their rent
 ## Technologies Stack:
 ### Frontend: 
 1. **React.js**
- - React Route.
+     - React Route.
  * React hook form.
  * React Slick.
 2. **JavaScript**
