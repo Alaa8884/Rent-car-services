@@ -1,6 +1,8 @@
-# React + Vite
+# Rent Car Services Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About Project
+Developed a complex, scalable frontend for a rental car platform. Leveraged React to build a dynamic and responsive user
+interface, enabling users to seamlessly filter, select, and customize their rental experience.
 
 Currently, two official plugins are available:
 
