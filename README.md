@@ -7,7 +7,7 @@ interface, enabling users to seamlessly filter, select, and customize their rent
 ## Technologies Stack:
 ### Frontend: 
 1. **React.js**
- * React Route.
+ - React Route.
  * React hook form.
  * React Slick.
 2. **JavaScript**
@@ -17,4 +17,4 @@ interface, enabling users to seamlessly filter, select, and customize their rent
 ### Backend: 
 1. Fake Data.
 
-### For more experement about this project try from here 👉 `[Live Demo]`(https://rent-car-services-blush.vercel.app/home)
+### For more experement about this project try from here 👉 [Live Demo](https://rent-car-services-blush.vercel.app/home)
