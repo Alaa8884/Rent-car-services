@@ -5,6 +5,7 @@ Developed a complex, scalable frontend for a rental car platform. Leveraged Reac
 interface, enabling users to seamlessly filter, select, and customize their rental experience.
 
 ## Technologies Stack:
+### Project is built with:
 ### Frontend: 
 1. **React.js**
      - React Route.
