@@ -8,6 +8,6 @@ interface, enabling users to seamlessly filter, select, and customize their rent
 ### Frontend: 
 1. React.js, React Router, React hook form, React Slick.
 ### Styling: Bootstrap & Css.
-### Backend: `fake data`.
-
+### Backend: fake data.
+`#RRGGBB`
 ### For more experement about this project try from here 👉 [Live Demo](https://rent-car-services-blush.vercel.app/home)
