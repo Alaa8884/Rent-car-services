@@ -5,7 +5,6 @@ Developed a complex, scalable frontend for a rental car platform. Leveraged Reac
 interface, enabling users to seamlessly filter, select, and customize their rental experience.
 
 ## Technologies Stack:
-### Project is built with:
 ### Frontend: 
 1. **React.js**
      - React Route.
@@ -18,4 +17,4 @@ interface, enabling users to seamlessly filter, select, and customize their rent
 ### Backend: 
 1. **Fake Data**.
 
-### For more experement about this project try from here 👉 [Live Demo](https://rent-car-services-blush.vercel.app/home)
+You can try the website from here 👉 [Live Demo](https://rent-car-services-blush.vercel.app/home)
