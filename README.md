@@ -4,6 +4,9 @@
 Developed a complex, scalable frontend for a rental car platform. Leveraged React to build a dynamic and responsive user
 interface, enabling users to seamlessly filter, select, and customize their rental experience.
 
+## Tools Used:
+ React, React Router, React hook form , React Slick, JavaScript, Css and Bootstrap.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
